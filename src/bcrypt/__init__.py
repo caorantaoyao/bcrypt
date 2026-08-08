@@ -26,8 +26,10 @@ from ._bcrypt import (
 from ._bcrypt import (
     __version_ex__ as __version__,
 )
+from . import __about__
 
 __all__ = [
+    "__about__",
     "__author__",
     "__copyright__",
     "__email__",
